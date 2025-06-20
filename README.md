@@ -20,16 +20,24 @@ YouTube 영상의 **스크립트**와 **댓글**을 자동으로 요약해주는
 
 ### ✅ 예시 흐름
 
-```text
-URL 입력:
+1. URL 입력:
 https://youtu.be/sLe6jgHoYtk
 
-→ 스크립트 요약 결과 출력
+![스크린샷 2025-06-20 160259](https://github.com/user-attachments/assets/08678cdc-d41a-408c-8b69-da22dcec4377)
 
-→ 사용자가 "응" 입력
+2. 스크립트 요약 결과 출력
 
-→ 댓글 요약 결과 출력
-````
+![스크린샷 2025-06-20 160328](https://github.com/user-attachments/assets/70e20c3e-2636-42a1-96d5-16387c8a704d)
+
+
+3. 사용자가 "응" 또는 긍정의 표현 입력
+
+![스크린샷 2025-06-20 160351](https://github.com/user-attachments/assets/15e2fd08-53cf-480b-b3e9-c579e911f559)
+
+4. 댓글 요약 결과 출력
+
+![스크린샷 2025-06-20 160405](https://github.com/user-attachments/assets/e903c56d-f38e-4cfb-8918-e2c12b966690)
+
 
 출력 형태는 `script_summary` (dict) 와 `comment_summary` (string) 형태로 표시됩니다.
 
